@@ -6,14 +6,14 @@ This is an official PyTorch impelementation of our paper  "[Robustizing Object D
 <img src="./imgs/cover001.png" width="66%" />
 </p>
 
-## Getting Started
+## 1. Getting Started
 Our implementation is based on MMDetection v2.19.0.
 
 To merge code with mmdetection run the following shell.
 
 `sh ./merge_mmdet.sh`
 
-## Training 
+## 2. Training 
 Train Our Augmentation Feature Pooling with Faster RCNN on Our COCO-Rot-Train.
 
 `bash ./tools/Faster/dist_faster_Prop_FT4.sh`
@@ -23,7 +23,7 @@ Train naive Faster RCNN on Our COCO-Rot-Train.
 `bash ./tools/Faster/dist_faster_Prev.sh`
 
 
-## Directory configuration
+## 3. Directory Configuration
 
 ```
 DET_AFP  
@@ -62,13 +62,13 @@ in
  `configs/_base_/datasets/coco_detection_ROT2.py`
 
 
-## Pseudo-Code for Our Augmented Feature Pooling
+## 4. Pseudo-Code for Our Augmented Feature Pooling
 
 <p align="center">
 <img src="./imgs/pseudo.png" width="100%" />
 </p>
 
-## Extension to Transformer-Based Backbone
+## 5. Extension to Transformer-Based Backbone
 
 For Swin Transformer, our augmented feature pooling is applied to the
 feature map immediately after the Swin-Transformer Block of each stage, i.e.
