@@ -4,6 +4,7 @@ This is the official PyTorch impelementation of our paper "Robustizing Object De
 <p align="center">
 <img src="./imgs/cover001.png" width="66%" />
 </p>
+
 ## Setup
 Our implementation is based on MMDetection v2.19.0.
 
