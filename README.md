@@ -15,7 +15,7 @@ To merge code with mmdetection run the following shell.
 
 `sh ./merge_mmdet.sh`
 
-## Training: To train a model with the new config, you can simply run
+## Training 
 Train Our Augmentation Feature Pooling with Faster RCNN on Our COCO-Rot-Train.
 
 `bash ./tools/Faster/dist_faster_Prop_FT4.sh`
