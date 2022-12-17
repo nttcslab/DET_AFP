@@ -57,6 +57,24 @@ The location of the dataset is arbitrary, but you will need to change the descri
 
 `data_root = data_root = "../../mmdetection/data/coco_rot2/" ` in `configs/_base_/datasets/coco_detection_ROT2.py`
 
+
+## Pseudo-Code for Our Augmented Feature Pooling
+
+<p align="center">
+<img src="./imgs/pseudo.png" width="66%" />
+</p>
+
+## Extension to Transformer-Based Backbone
+
+For Swin Transformer, our augmented feature pooling is applied to the
+feature map immediately after the Swin-Transformer Block of each stage, i.e.
+just before the Patch Merging.
+
+<p align="center">
+<img src="./imgs/trnsfmr.png" width="66%" />
+</p>
+
+
 ## Citation
 If you use this toolbox or benchmark in your research, please cite this project.  
 ```
