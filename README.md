@@ -61,7 +61,7 @@ The location of the dataset is arbitrary, but you will need to change the descri
 ## Pseudo-Code for Our Augmented Feature Pooling
 
 <p align="center">
-<img src="./imgs/pseudo.png" width="66%" />
+<img src="./imgs/pseudo.png" width="100%" />
 </p>
 
 ## Extension to Transformer-Based Backbone
@@ -71,7 +71,7 @@ feature map immediately after the Swin-Transformer Block of each stage, i.e.
 just before the Patch Merging.
 
 <p align="center">
-<img src="./imgs/trnsfmr.png" width="66%" />
+<img src="./imgs/trnsfmr.png" width="50%" />
 </p>
 
 
