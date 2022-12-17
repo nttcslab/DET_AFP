@@ -1,18 +1,21 @@
 # AFP:Robustizing Object Detection Networks Using Augmented Feature Pooling (ACCV2022)
-This is the official PyTorch impelementation of our paper "Robustizing Object Detection Networks Using Augmented Feature Pooling" (ACCV2022).
+
+
+
+This is the official PyTorch impelementation of our paper  "[Robustizing Object Detection Networks Using Augmented Feature Pooling  (ACCV2022)](https://openaccess.thecvf.com/content/ACCV2022/papers/Shibata_Robustizing_Object_Detection_Networks_Using_Augmented_Feature_Pooling_ACCV_2022_paper.pdf)" 
 
 <p align="center">
 <img src="./imgs/cover001.png" width="66%" />
 </p>
 
-## Setup
+## Getting Started
 Our implementation is based on MMDetection v2.19.0.
 
 To merge code with mmdetection run the following shell.
 
 `sh ./merge_mmdet.sh`
 
-## To train a model with the new config, you can simply run
+## Training: To train a model with the new config, you can simply run
 Train Our Augmentation Feature Pooling with Faster RCNN on Our COCO-Rot-Train.
 
 `bash ./tools/Faster/dist_faster_Prop_FT4.sh`
