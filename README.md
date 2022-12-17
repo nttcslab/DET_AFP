@@ -12,9 +12,11 @@ To merge code with mmdetection run the following shell.
 
 ## To train a model with the new config, you can simply run
 Train Our Augmentation Feature Pooling with Faster RCNN on Our COCO-Rot-Train.
+
 `bash ./tools/Faster/dist_faster_Prop_FT4.sh`
 
 Train naive Faster RCNN on Our COCO-Rot-Train.
+
 `bash ./tools/Faster/dist_faster_Prev.sh`
 
 
