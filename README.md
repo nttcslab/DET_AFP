@@ -1,6 +1,6 @@
-# AFP:Robustizing Object Detection Networks Using Augmented Feature Pooling (ACCV2022)
+# AFP:Robustizing Object Detection Networks Using Augmented Feature Pooling (ACCV2022, Oral)
 
-This is an official PyTorch impelementation of our paper  "[Robustizing Object Detection Networks Using Augmented Feature Pooling  (ACCV2022)](https://openaccess.thecvf.com/content/ACCV2022/papers/Shibata_Robustizing_Object_Detection_Networks_Using_Augmented_Feature_Pooling_ACCV_2022_paper.pdf)" 
+This is an official PyTorch impelementation of our paper  "[Robustizing Object Detection Networks Using Augmented Feature Pooling  (ACCV2022, Oral)](https://openaccess.thecvf.com/content/ACCV2022/papers/Shibata_Robustizing_Object_Detection_Networks_Using_Augmented_Feature_Pooling_ACCV_2022_paper.pdf)" 
 
 <p align="center">
 <img src="./imgs/cover001.png" width="66%" />
