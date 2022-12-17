@@ -81,7 +81,7 @@ just before the Patch Merging.
 
 ## Citation
 If you use this toolbox or benchmark in your research, please cite this project.  
-```
+```BibTeX
 @inproceedings{shibata2022robustizing,  
   title={Robustizing Object Detection Networks Using Augmented Feature Pooling},  
   author={Shibata, Takashi and Tanaka, Masayuki and Okutomi, Masatoshi},  
