@@ -1,9 +1,9 @@
 # AFP:Robustizing Object Detection Networks Using Augmented Feature Pooling (ACCV2022)
 This is the official PyTorch impelementation of our paper "Robustizing Object Detection Networks Using Augmented Feature Pooling" (ACCV2022).
 
-
-<img src="./imgs/cover001.png" width="50%" />
-
+<p align="center">
+<img src="./imgs/cover001.png" width="66%" />
+</p>
 ## Setup
 Our implementation is based on MMDetection v2.19.0.
 
