@@ -55,7 +55,11 @@ mmdetection
 
 The location of the dataset is arbitrary, but you will need to change the description below according to your location.
 
-`data_root = data_root = "../../mmdetection/data/coco_rot2/" ` in `configs/_base_/datasets/coco_detection_ROT2.py`
+`data_root = data_root = "../../mmdetection/data/coco_rot2/" ` 
+
+in
+
+ `configs/_base_/datasets/coco_detection_ROT2.py`
 
 
 ## Pseudo-Code for Our Augmented Feature Pooling
